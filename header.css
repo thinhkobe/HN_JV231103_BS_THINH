@@ -1,0 +1,13 @@
+.header {
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10px;
+  margin: 10px;
+}
+.nav-list-item {
+  display: flex;
+  gap: 20px;
+  margin-right: 20px;
+}

@@ -1,0 +1,70 @@
+.body-top {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  background-image: url(./anh1.jpg);
+  background-size: cover;
+  padding: 10px 30px;
+}
+.body-top-contai {
+  position: absolute;
+  bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+}
+.body-mid,
+.body-bot {
+  padding: 40px;
+}
+.body-mid-contai {
+  display: flex;
+  justify-content: space-between;
+}
+.body-mid-img {
+  display: flex;
+  gap: 5px;
+}
+.mid-img {
+  width: 300px;
+  height: 360px;
+}
+.img-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+/* body-bot */
+.body-bot {
+  display: grid;
+  grid-template-columns: 790px 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+}
+.body-bot-img1 {
+  position: relative;
+  background-image: url(./anh6.jpg);
+  grid-row: 1/3;
+  background-size: 123%;
+}
+.body-bot-img2 {
+  padding: 20px;
+  background-image: url(./anh7.jpg);
+  background-size: cover;
+}
+.body-bot-img3 {
+  background-image: url(./anh8.jpg);
+  background-size: cover;
+  padding: 20px;
+}
+.price {
+  opacity: 0.8;
+}
+.bot-img1-contai {
+  position: absolute;
+  right: 10px;
+  top: 50px;
+  width: 250px;
+}
